@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="OopProjectPartC.Core.Bathroom">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bathroom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OopProjectPartC.Core.Bed">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OopProjectPartB.Core.Bedroom">
+    <Position X="13" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bedroom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OopProjectPartC.Core.Chair">
+    <Position X="6.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Chair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OopProjectPartC.Core.BaseEntity">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OopProjectPartC.Core.IdGenerator">
+    <Position X="17.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IdGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OopProjectPartC.Core.Room">
+    <Position X="13" Y="1.75" Width="2.5" />
+    <NestedTypes>
+      <Delegate Name="OopProjectPartC.Core.Room.FurnitureAddRemoveHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Room.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABIIAAQEAAAIAAQAAAAAAAAAAAACAQAQAAg=</HashCode>
+      <FileName>Room.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OopProjectPartC.Core.Kitchen">
+    <Position X="15.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kitchen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OopProjectPartC.Core.Table">
+    <Position X="8.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Table.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OopProjectPartC.Core.Furniture">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="OopProjectPartC.Core.Furniture.FurnitureMovedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Furniture.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAIAAAAQEAAAAAAQAAQAEAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Furniture.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="OopProjectPartC.Core.IFurniture">
+    <Position X="17.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAIAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>IFurniture.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OopProjectPartC.Core.IUsableFurniture">
+    <Position X="19.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IUsableFurniture.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="OopProjectPartC.Core.Place">
+    <Position X="17.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>Place.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
